@@ -36,7 +36,7 @@ class Main {
                 System.out.println("Read " + total + " bytes, speed: " + total / cost + "KB/s");
             }else if(read == -1){
                 cond = false;
-                System.out.println(cost/1000.00);
+                System.out.println("time elapsed " + cost/1000.00 + " seconds");
                 input.close();
                 socket.close();
             }
